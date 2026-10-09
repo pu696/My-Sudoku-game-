@@ -1,0 +1,37 @@
+﻿# ---- Qt Creator / qmake user-specific files ----
+*.user
+*.user.*
+*.pro.user
+*.autosave
+.qtcreator/
+.qmake.stash
+
+# ---- Build output directories ----
+build/
+build-*/
+[Bb]in/
+[Oo]bj/
+
+# ---- Compiled / generated objects ----
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+*.dll
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+Makefile
+Makefile.*
+
+# ---- clangd / ccache ----
+.qtc_clangd/
+.cache/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
